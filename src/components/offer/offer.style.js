@@ -1,5 +1,8 @@
 import styled, { css } from "styled-components";
+import { Colors } from "../../../src/shared/Colors";
 import ArrowForwardIosOutlined from "@material-ui/icons/ArrowForwardIosOutlined";
+
+const { black600: ButtonBackground, white: defaultTextColor } = Colors;
 
 const OfferWrapper = styled.div`
   display: flex;
@@ -15,7 +18,7 @@ const OfferBox = styled.div`
   align-items: center;
   height: 200px;
   width: 300px;
-  color: white;
+  color: ${defaultTextColor};
   margin: 25px 0;
   padding-left: 36px;
   font-weight: 500;
@@ -23,7 +26,7 @@ const OfferBox = styled.div`
   line-height: normal;
   text-transform: uppercase;
   cursor: pointer;
-  
+
   &:after {
     position: absolute;
     content: " ";
@@ -56,11 +59,11 @@ const OfferButton = styled.button`
   left: 0;
   border: none;
   height: 50px;
-  background-color: #31353d;
+  background-color: ${ButtonBackground};
   overflow: hidden;
   font-size: 20px;
   line-height: 50px;
-  color: #fff;
+  color: ${defaultTextColor};
   text-transform: uppercase;
   font-weight: 300;
   padding: 0 65px;

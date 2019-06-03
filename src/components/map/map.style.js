@@ -1,10 +1,13 @@
 import styled from "styled-components";
+import { Colors } from "../../../src/shared/Colors";
+
+const { blueLight100: mainColor } = Colors;
 
 const SocialWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #45c8de;
+  background: ${mainColor};
   padding: 25px 25px;
 `;
 

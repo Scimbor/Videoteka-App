@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import LocalPhoneOutlined from "@material-ui/icons/LocalPhoneOutlined";
-import AlternateEmailOutlined from "@material-ui/icons/AlternateEmailOutlined"
-import DirectionsTransitOutlined from "@material-ui/icons/DirectionsTransitOutlined"
+import AlternateEmailOutlined from "@material-ui/icons/AlternateEmailOutlined";
+import DirectionsTransitOutlined from "@material-ui/icons/DirectionsTransitOutlined";
+import { Colors } from "../../../src/shared/Colors";
 
+const { white: defaultTextColor, redLight200: iconsColor, grayLight400: backgroundContact } = Colors;
 
 const ContactWrapper = styled.footer`
   display: flex;
@@ -18,21 +20,21 @@ const InfoBox = styled.div`
   align-items: center;
   width: 350px;
   height: 120px;
-  background-color: #d3d3d3;
+  background-color: ${backgroundContact};
   padding: 0 20px;
   margin: 15px 0;
 `;
 
 const TelBox = styled.h2`
-      font-size: 1.5em;
-  color: #fff;
+  font-size: 1.5em;
+  color: ${defaultTextColor};
   font-weight: 300;
   text-transform: uppercase;
 `;
 
 const Phone = styled(LocalPhoneOutlined)`
   && {
-    color: #fc4349;
+    color: ${iconsColor};
     font-size: 4.5em;
     padding-right: 15px;
   }
@@ -40,18 +42,18 @@ const Phone = styled(LocalPhoneOutlined)`
 
 const Email = styled(AlternateEmailOutlined)`
   && {
-    color: #fc4349;
+    color: ${iconsColor};
     font-size: 4.5em;
     padding-right: 15px;
   }
-`
+`;
 
 const Courier = styled(DirectionsTransitOutlined)`
   && {
-    color: #fc4349;
+    color: ${iconsColor};
     font-size: 4.5em;
     padding-right: 15px;
   }
-`
+`;
 
 export { ContactWrapper, InfoBox, TelBox, Phone, Email, Courier };

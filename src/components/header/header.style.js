@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { Colors } from "../../../src/shared/Colors";
+
+
+const { blueLight100: ColorText2, black500: ColorText1 } = Colors;
 
 const HeaderWrapper = styled.div`
   position: relative;
@@ -24,13 +28,13 @@ const TitleWrapper = styled.div`
 const TitleSpan = styled.span`
     position: relative;
     display: block;
-    color: #413f44;
+    color: ${ColorText1};
     font-size: 8vw;
     letter-spacing: -2px;
     text-transform: uppercase;
     margin-top: -4vw;
     &:last-child{
-      color: #45c8de;
+      color: ${ColorText2};
     }
 `
 

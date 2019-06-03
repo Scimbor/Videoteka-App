@@ -1,5 +1,8 @@
 import styled from "styled-components";
+import { Colors } from "../../../src/shared/Colors";
 import { Nav, Navbar } from "react-bootstrap";
+
+const { blueLight100: mainColorNavbar, white: hoverMenuColor } = Colors;
 
 const NavbarStyled = styled(Navbar)`
   padding: 0 !important;
@@ -11,7 +14,7 @@ const NavbarStyled = styled(Navbar)`
 `;
 
 const NavbarBrand = styled(Navbar.Brand)`
-  color: #23b0c8 !important;
+  color: ${mainColorNavbar} !important;
   font-size: 2.2rem !important;
   padding: 0 0 0 10px !important;
 
@@ -21,7 +24,7 @@ const NavbarBrand = styled(Navbar.Brand)`
 `;
 
 const NavLink = styled(Nav.Link)`
-  color: #23b0c8;
+  color: ${mainColorNavbar} !important;
   padding: 23px 25px 24px 25px;
   text-transform: uppercase;
   transition: 0.3s;
@@ -31,8 +34,8 @@ const NavLink = styled(Nav.Link)`
   }
 
   &:hover {
-    background-color: #23b0c8;
-    color: white;
+    background-color: ${mainColorNavbar};
+    color: ${hoverMenuColor} !important;
     text-decoration: none;
   }
 `;
@@ -42,8 +45,8 @@ const NavPhoneWrapper = styled.div`
   align-items: center;
   justify-content: flex-end;
   font-size: 20px;
-  color: white;
-  background: #45c8de;
+  color: ${hoverMenuColor};
+  background: ${mainColorNavbar};
   padding: 7px 0 10px;
   padding: 12px 21px 12px 21px;
 
@@ -56,10 +59,5 @@ const TextPhone = styled.p`
   margin: 0;
   padding-left: 10px;
 `;
-export {
-  NavLink,
-  NavbarStyled,
-  NavbarBrand,
-  NavPhoneWrapper,
-  TextPhone
-};
+
+export { NavLink, NavbarStyled, NavbarBrand, NavPhoneWrapper, TextPhone };
