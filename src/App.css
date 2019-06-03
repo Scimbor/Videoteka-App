@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-indicators {
+  background: #45c8de;
+  width: 100%;
+  margin: 0 !important;
+}
