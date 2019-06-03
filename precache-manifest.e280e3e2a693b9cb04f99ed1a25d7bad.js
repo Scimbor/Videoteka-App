@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f46def76d770ab788da3fd564e9f4adb",
+    "revision": "c79e3c32b026381a7712cb3e9195a23b",
     "url": "/Videoteka-App/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Videoteka-App/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "2674b0c71e2dedf12a4e",
+    "revision": "5f2375d36f89203170b2",
     "url": "/Videoteka-App/static/css/main.594252b0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Videoteka-App/static/js/2.76dc4636.chunk.js"
   },
   {
-    "revision": "2674b0c71e2dedf12a4e",
-    "url": "/Videoteka-App/static/js/main.b6203f26.chunk.js"
+    "revision": "5f2375d36f89203170b2",
+    "url": "/Videoteka-App/static/js/main.6ea42d1b.chunk.js"
   },
   {
     "revision": "acd29d633926038787fe",
