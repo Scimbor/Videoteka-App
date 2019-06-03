@@ -13,7 +13,7 @@ const Offer = () => {
 
   return (
     <OfferWrapper>
-      <OfferBox colorBackground={"#fc4349"} colorCorner={"#d11016"} onMouseOver={() => setClick("print")}>
+      <OfferBox colorBackground={"#fc4349"} colorCorner={"#d11016"} onMouseOver={() => setClick("print")} onMouseOut={()=>setClick(null)}>
         Drukowanie <OfferButton>Czytaj Więcej</OfferButton> <ReadMoreArrow />
         <OfferDescription className="hoverStyle" colorBackground={"#fc4349"}  clicked={clicked} print={"print"}>
             <OfferList> Format A4 - A0 </OfferList>
@@ -22,7 +22,7 @@ const Offer = () => {
             <OfferList> Drukowanie planów CAD </OfferList>
         </OfferDescription>
       </OfferBox>
-      <OfferBox colorBackground={"#8dbf41"} colorCorner={"#739d33"} onMouseOver={() => setClick("xsero")}>
+      <OfferBox colorBackground={"#8dbf41"} colorCorner={"#739d33"} onMouseOver={() => setClick("xsero")} onMouseOut={()=>setClick(null)}>
         Ksero <OfferButton>Czytaj Więcej</OfferButton> <ReadMoreArrow />
         <OfferDescription className="hoverStyle" colorBackground={"#8dbf41"}  clicked={clicked} xsero={"xsero"}>
             <OfferList> Ksero A4 - A0 </OfferList>
@@ -30,7 +30,7 @@ const Offer = () => {
             <OfferList> Kserowanie planów CAD</OfferList>
         </OfferDescription>
       </OfferBox>
-      <OfferBox colorBackground={"#3498db"} colorCorner={"#3387c0"} onMouseOver={() => setClick("bind")}>
+      <OfferBox colorBackground={"#3498db"} colorCorner={"#3387c0"} onMouseOver={() => setClick("bind")} onMouseOut={()=>setClick(null)}>
         Bindowanie <OfferButton>Czytaj Więcej</OfferButton> <ReadMoreArrow />
         <OfferDescription className="hoverStyle" colorBackground={"#3498db"}  clicked={clicked} bind={"bind"}>
             <OfferList> Oprawa prac </OfferList>
@@ -38,7 +38,7 @@ const Offer = () => {
             <OfferList> Laminowanie </OfferList>
         </OfferDescription>
       </OfferBox>
-      <OfferBox colorBackground={"#7588a5"} colorCorner={"#4e5764"} onMouseOver={() => setClick("scan")}>
+      <OfferBox colorBackground={"#7588a5"} colorCorner={"#4e5764"} onMouseOver={() => setClick("scan")} onMouseOut={()=>setClick(null)}>
         Skanowanie <OfferButton>Czytaj Więcej</OfferButton> <ReadMoreArrow />
         <OfferDescription className="hoverStyle" colorBackground={"#7588a5"}  clicked={clicked} scan={"scan"}>
             <OfferList> Skanowanie wielkoformatowe </OfferList>
