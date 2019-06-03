@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Videoteka-App/static/css/main.594252b0.chunk.css",
-    "main.js": "/Videoteka-App/static/js/main.98d766b8.chunk.js",
-    "main.js.map": "/Videoteka-App/static/js/main.98d766b8.chunk.js.map",
-    "runtime~main.js": "/Videoteka-App/static/js/runtime~main.4cfa725a.js",
-    "runtime~main.js.map": "/Videoteka-App/static/js/runtime~main.4cfa725a.js.map",
-    "static/css/2.266e55a5.chunk.css": "/Videoteka-App/static/css/2.266e55a5.chunk.css",
-    "static/js/2.76dc4636.chunk.js": "/Videoteka-App/static/js/2.76dc4636.chunk.js",
-    "static/js/2.76dc4636.chunk.js.map": "/Videoteka-App/static/js/2.76dc4636.chunk.js.map",
-    "index.html": "/Videoteka-App/index.html",
-    "precache-manifest.046f0d4debc95b80be6c7cc7485cb832.js": "/Videoteka-App/precache-manifest.046f0d4debc95b80be6c7cc7485cb832.js",
-    "service-worker.js": "/Videoteka-App/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/Videoteka-App/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.594252b0.chunk.css.map": "/Videoteka-App/static/css/main.594252b0.chunk.css.map",
-    "static/media/index.css": "/Videoteka-App/static/media/JockeyOne-Regular.fa2f9fbe.otf"
+    "main.css": "https://scimbor.github.io/Videoteka-App/static/css/main.4bc14442.chunk.css",
+    "main.js": "https://scimbor.github.io/Videoteka-App/static/js/main.f534fb5b.chunk.js",
+    "main.js.map": "https://scimbor.github.io/Videoteka-App/static/js/main.f534fb5b.chunk.js.map",
+    "runtime~main.js": "https://scimbor.github.io/Videoteka-App/static/js/runtime~main.07d51d50.js",
+    "runtime~main.js.map": "https://scimbor.github.io/Videoteka-App/static/js/runtime~main.07d51d50.js.map",
+    "static/css/2.266e55a5.chunk.css": "https://scimbor.github.io/Videoteka-App/static/css/2.266e55a5.chunk.css",
+    "static/js/2.0c8a6e93.chunk.js": "https://scimbor.github.io/Videoteka-App/static/js/2.0c8a6e93.chunk.js",
+    "static/js/2.0c8a6e93.chunk.js.map": "https://scimbor.github.io/Videoteka-App/static/js/2.0c8a6e93.chunk.js.map",
+    "index.html": "https://scimbor.github.io/Videoteka-App/index.html",
+    "precache-manifest.5cc409a55cb5e25352dfd50c1ea7c87e.js": "https://scimbor.github.io/Videoteka-App/precache-manifest.5cc409a55cb5e25352dfd50c1ea7c87e.js",
+    "service-worker.js": "https://scimbor.github.io/Videoteka-App/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "https://scimbor.github.io/Videoteka-App/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.4bc14442.chunk.css.map": "https://scimbor.github.io/Videoteka-App/static/css/main.4bc14442.chunk.css.map",
+    "static/media/index.css": "https://scimbor.github.io/Videoteka-App/static/media/JockeyOne-Regular.fa2f9fbe.otf"
   }
 }
