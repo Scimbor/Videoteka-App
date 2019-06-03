@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavbarComponent />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={mainPage} />
         </Switch>
