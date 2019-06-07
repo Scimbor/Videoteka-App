@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Videoteka-App/precache-manifest.b5b8a877cb6f6df1bad131fae09937ac.js"
+  "/Videoteka-App/precache-manifest.b65da1fd585687a563c5cfe19837b353.js"
 );
 
 self.addEventListener('message', (event) => {
