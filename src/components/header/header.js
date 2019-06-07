@@ -10,7 +10,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src={`https://livedemo00.template-help.com/wt_50774/images/slide1.jpg?1559116605523`}
-            alt="First slide"
+            alt="First slide" fluid
           />
           <TitleWrapper>
             <TitleSpan>Profesjonalne</TitleSpan>
@@ -21,7 +21,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src={`https://livedemo00.template-help.com/wt_50774/images/slide2.jpg?1559116605787`}
-            alt="Third slide"
+            alt="Third slide" fluid
           />
           <TitleWrapper>
             <TitleSpan>Najlepsza</TitleSpan>
@@ -32,7 +32,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src={`https://livedemo00.template-help.com/wt_50774/images/slide2.jpg?1559116605787`}
-            alt="Third slide"
+            alt="Third slide" fluid
           />
           <TitleWrapper>
             <TitleSpan>Najnowsza</TitleSpan>

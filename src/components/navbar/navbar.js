@@ -14,7 +14,7 @@ const NavbarComponent = () => {
     <>
       <NavPhoneWrapper>
             <SmartphoneOutline />
-            <TextPhone>509 978 263</TextPhone>
+            <TextPhone href="tel:+48509978263">509 978 263</TextPhone>
       </NavPhoneWrapper>
       <NavbarStyled collapseOnSelect sticky="top" expand="lg" bg="white">
           <NavbarBrand href="#home">DrukCad</NavbarBrand>

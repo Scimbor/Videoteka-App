@@ -16,11 +16,7 @@ const NavbarStyled = styled(Navbar)`
 const NavbarBrand = styled(Navbar.Brand)`
   color: ${mainColorNavbar} !important;
   font-size: 2.2rem !important;
-  padding: 0 0 0 10px !important;
-
-  @media screen and (max-width: 992px) {
-    padding: 0 !important;
-  }
+  padding: 10px 0 10px 10px !important;
 `;
 
 const NavLink = styled(Nav.Link)`
@@ -55,9 +51,20 @@ const NavPhoneWrapper = styled.div`
   }
 `;
 
-const TextPhone = styled.p`
+const TextPhone = styled.a`
+  display: block;
   margin: 0;
   padding-left: 10px;
+  color: ${hoverMenuColor};
+  text-decoration: none;
+  cursor: pointer;
+  
+  &:visited,
+  &:hover,
+  &:focus {
+    color: ${hoverMenuColor};
+    text-decoration: none;
+  }
 `;
 
 export { NavLink, NavbarStyled, NavbarBrand, NavPhoneWrapper, TextPhone };
